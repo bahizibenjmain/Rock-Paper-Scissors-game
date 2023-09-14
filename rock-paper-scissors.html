@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="4">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles/rock-paper-scissors.css">
+</head>
+<body>
+  <div class="container">
+    <p class="header-text">Rock Paper Scissors</p>
+
+    <div title="Rock ( r )" class="button-container">
+      <button class="js-rock-button button-element">
+        <img src="images/rock-emoji.png" alt="" class="pick-images">
+      </button>
+
+      <button title="Paper ( p )" class="js-paper-button button-element">
+        <img src="images/paper-emoji.png" alt="" class="pick-images">
+      </button>
+
+      <button title="Scissors ( s )" class="js-scissor-button button-element">
+        <img src="images/scissors-emoji.png" alt="" class="pick-images">
+      </button>
+    </div>
+    <div class="output-container">
+      <div class="js-displaying-results displaying-results"><span>Pick to win!.</span></div>
+      <div class="js-displaying-move displaying-move"></div>
+      <div class="js-displaying-scores displaying-scores"></div>
+    
+      <button class="js-reset-scores-button reset-scores-button">Reset Scores</button>
+    </div>
+  </div>
+  <script src="scripts/rock-paper-scissors.js"></script>
+</body>
+</html>

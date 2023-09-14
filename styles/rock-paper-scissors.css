@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(124, 118, 118);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 100px;
+  font-size: 30px;
+
+}
+
+.container{
+  border: 2px solid;
+  padding:30px;
+  align-items: center;
+  width: 700px;
+  margin-left: 200px;
+  background-color: rgb(48, 48, 233);
+}
+
+.button-element{
+  padding: 30px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-color: white;
+  border-radius: 100px;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.header-text{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.reset-scores-button{
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button-element{
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 20px;
+
+}
+
+.pick-images{
+  width: 120px;
+}
+
+.displaying-results,
+.displaying-move,
+.displaying-scores{
+  margin-top: 30px;
+}
+
+span{
+  color: rgb(255, 183, 0);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.js-move-image{
+  width: 60px;
+}
